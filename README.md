@@ -21,6 +21,13 @@ PUT /Securities/{id}
 #Endpoint Borrar Seguros
 DELETE /Securities/{id}
 
+
+########################   T A B L A   ###########################
+# seguro_id
+# seguro_nombre
+# seguro_tipo
+# seguro_importe
+
 ##################################################################
 #                          CLIENTES                              #
 ##################################################################
@@ -43,6 +50,12 @@ PUT /Clients/{id}
 
 #Endpoint Borrar Cliente
 DELETE /Clients/{id}
+
+########################   T A B L A   ###########################
+# cliente_id
+# cliente_nombre
+# cliente_dni_tipo
+# cliente_dni_nro
 
 ##################################################################
 #                           POLIZAS                              #
